@@ -1,10 +1,10 @@
 {
-    "name": "ngx-gauge",
+    "name": "@vtssoftware/ngx-gauge",
     "version": "1.0.0-beta",
     "description": "A highly customizable Gauge Component for Angular 4+ apps and dashboards",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ashish-chopra/ngx-gauge.git"
+        "url": "git+https://github.com/vtssoftware/ngx-gauge.git"
     },
     "peerDependencies": {
         "@angular/core": "^4.3.6 || ^5.0.0",
@@ -27,7 +27,7 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ashish-chopra/ngx-gauge/issues"
+        "url": "https://github.com/vtssoftware/ngx-gauge/issues"
     },
-    "homepage": "https://github.com/ashish-chopra/ngx-gauge#readme"
+    "homepage": "https://github.com/vtssoftware/ngx-gauge#readme"
 }

@@ -1,6 +1,6 @@
 {
-  "name": "ngx-gauge",
-  "version": "0.0.0",
+  "name": "@vtssoftware/ngx-gauge",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -16,7 +16,6 @@
     "nx-migrate": "node ./node_modules/@nrwl/schematics/src/migrator/migrator.js",
     "build:lib": "ng-packagr -p ./ng-package.json"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "5.1.0",
     "@angular/common": "5.1.0",
@@ -37,7 +36,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "file:.angular_cli.tgz",
+    "@angular/cli": "^1.6.3",
     "@angular/compiler-cli": "5.1.0",
     "@angular/language-service": "5.1.0",
     "@nrwl/schematics": "0.6.0",
@@ -59,5 +58,15 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "2.5.3"
-  }
+  },
+  "description": "<!-- [![Build Status](https://travis-ci.org/ashish-chopra/ngx-gauge.png?branch=master)](https://travis-ci.org/ashish-chopra/ngx-gauge) --> [![npm version](https://badge.fury.io/js/ngx-gauge.svg)](https://badge.fury.io/js/ngx-gauge) <!-- [![peerDependencies Status](https://david-dm.org/ashish-chopra/ngx-gauge/peer-status.svg)](https://david-dm.org/ashish-chopra/ngx-gauge?type=peer) [![devDependencies Status](https://david-dm.org/ashish-chopra/ngx-gauge/dev-status.svg)](https://david-dm.org/ashish-chopra/ngx-gauge?type=dev) --> [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ashish-chopra/ngx-gauge/issues)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtssoftware/ngx-gauge.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/vtssoftware/ngx-gauge/issues"
+  },
+  "homepage": "https://github.com/vtssoftware/ngx-gauge#readme"
 }
