@@ -157,6 +157,10 @@ export class NgxGauge implements AfterViewInit, OnChanges, OnDestroy {
         middle = Math.max(middle, start); // never below 0%
         middle = Math.min(middle, tail); // never exceed 100%
 
+        if (!this._context) {
+            return;
+        }
+
         this._clear();
         this._context.beginPath();
         this._context.strokeStyle = this.backgroundColor;
